@@ -12,10 +12,14 @@
 body {
     font-family: 'Epilogue', sans-serif;
 }
+.jeremy-large, .img-phone-portrait {
+    display: none;
+}
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 80px;
     margin: 24px 16px 83px 16px;
 }
 header h1 {
@@ -42,13 +46,16 @@ header button {
     height: 48px;
 }
 .super {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 0 16px 56px 16px;
 }
 .line-1 {
     border: 2px solid #172339;
     width: 151px;
     border: none;
-    margin-left: 150px;
+    margin-left: 110px;
 }
 .super-h2 {
     font-style: normal;
@@ -84,15 +91,18 @@ header button {
 
     width: 256px;
     height: 61px;
+    margin-right: 85px;
 }
-.img-phone {
+.phone {
+    display: flex;
+    justify-content: center;
     margin: 0 16px 50px 16px;
 }
 .timer {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    margin-bottom: 56px;
+    margin-bottom: 240px;
 }
 .k2, .eight, .m1 {
     font-style: normal;
@@ -109,4 +119,61 @@ header button {
     text-align: center;
     letter-spacing: 2.5px;
     color: #49566D;
+}
+.section2 {
+    background: #172339;
+    border-radius: 15px;
+}
+.imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.jeremy-small {
+    margin-top: -170px;
+}
+.line-2 {
+    margin-bottom: 40px;
+}
+.just-h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.416667px;
+    color: #FAF8F6;
+}
+.just-p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.09px;
+    color: #F3EDE7;
+
+    /* width: 343px; */
+    margin: 40px 16px;
+}
+.robinson {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #FAF8F6;
+}
+.fylo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2.5px;
+    color: #F3EDE7;
+    
+    padding-bottom: 60px;
 }
