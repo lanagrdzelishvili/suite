@@ -22,7 +22,7 @@ header {
     gap: 80px;
     margin: 24px 16px 83px 16px;
 }
-header h1 {
+header h1, .footer-h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -120,10 +120,6 @@ header button {
     letter-spacing: 2.5px;
     color: #49566D;
 }
-.section2 {
-    background: #172339;
-    border-radius: 15px;
-}
 .imgs {
     display: flex;
     flex-direction: column;
@@ -153,7 +149,7 @@ header button {
     text-align: center;
     letter-spacing: 0.09px;
     color: #F3EDE7;
-
+    
     /* width: 343px; */
     margin: 40px 16px;
 }
@@ -176,4 +172,36 @@ header button {
     color: #F3EDE7;
     
     padding-bottom: 60px;
+}
+.section2 {
+    background: #172339;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+}
+footer {
+    background: #F3EDE7;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 33px;
+    padding: 56px 0 80px 0;
+
+    margin-top: -100px;
+    height: 400px;
+}
+.footer-p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    color: #49566D;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
 }
