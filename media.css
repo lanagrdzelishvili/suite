@@ -13,14 +13,12 @@
         font-size: 16px;
         line-height: 32px;
         letter-spacing: -0.16px;
-    
         width: 219px;
         height: 56px;
     }
     .super {
         align-items: start;
         padding: 0 40px 140px 40px;
-
         position: relative;
         z-index: 1;
     }
@@ -33,7 +31,6 @@
         font-size: 56px;
         line-height: 64px;
         letter-spacing: -0.777778px;
-        
         width: 533px;
     }
     .super-p {
@@ -47,11 +44,10 @@
         display: flex;
         justify-content: center;
         margin: 0 16px 50px 16px;
-        
+
         position: absolute;
         top: 200px;
         right: 20px;
-
         width: 281px;
         height: 482px;
     }
@@ -71,7 +67,6 @@
         background-position-y: 300px;
     }
     .just-p {
-        /* width: 343px; */
         margin: 40px 100px;
     }
     .section2 {
@@ -87,11 +82,148 @@
         align-items: center;
         gap: 80px;
         padding: 590px 0 90px 0;
-    
         margin-top: -500px;
         height: 640px;
     }
 }
 @media screen and (min-width: 1440px) {
+    header {
+        gap: 390px;
+        margin: 50px 165px 180px 165px;
+    }
+    .super {
+        align-items: start;
+        padding: 0 40px 140px 40px;
+
+        position: relative;
+        z-index: 1;
+    }
+    .line-1 {
+        width: 287px;
+        margin-left: 290px;
+        margin-bottom: 15px;
+    }
+    .super-h2 {
+        font-size: 72px;
+        line-height: 78px;
+        letter-spacing: -1px;
+        width: 635px;
+    }
+    .super-p {
+        width: 350px;
+        margin: 50px 0;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+    }
+    .phone {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        position: absolute;
+        top: 220px;
+        right: 440px;
+        width: 350px;
+        height: 600px;
+    }
+    .section1 {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 100px 120px 10px;
+    }
+    .timer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 63px;
+        margin-bottom: 120px;
+    }
+
+    .jeremy-large {
+        width: 375px;
+        height: 600px;
+        margin-top: -50px;
+        margin-left: 100px;
     
+        background-image: url(images/assets/pattern-blur.svg);
+        background-repeat: no-repeat;
+        background-size: 500px 800px;
+        background-position: bottom;
+        background-position-x: -100px;
+        background-position-y: 300px;
+    }
+    .line-2 {
+        width: 64px;
+        height: 52px;
+        margin-right: 20px;
+    }
+    .just-h2 {
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+        text-align: start;
+    }
+    .just-p {
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: 0.1px;
+        width: 350px;
+        text-align: start;
+        margin: 40px 100px 40px 0;
+    }
+    .robinson {
+        text-align: start;
+    }
+    .fylo {
+        text-align: start;
+    }
+    .section2 {
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        z-index: 1;
+        width: 1109px;
+        height: 545px;
+        margin: 0 auto;
+    }
+    .imgs {
+        display: flex;
+        flex-direction: row;
+    }
+    .just {
+        text-align: start;
+        padding-top: 75px;
+    }
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 80px;
+        padding: 390px 0 120px 0;
+        margin-top: -250px;
+        height: 200px;
+    }
+    header button:hover {
+        cursor: pointer;
+        background-color: #172339;;
+        color: aliceblue;
+    }
+    .super-button:hover {
+        cursor: pointer;
+        color: aliceblue;
+        background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+    }
+    .fb:hover, .tw:hover, .ins:hover {
+        cursor: pointer;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+}
+
+@media screen and (min-width: 1666px) {
+    .section1 {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 100px 120px 10px;
+    }
 }
