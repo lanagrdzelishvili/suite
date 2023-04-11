@@ -5,4 +5,93 @@
     .jeremy-large, .img-phone-portrait {
         display: block;
     }
+    header {
+        gap: 390px;
+        margin: 40px 40px 180px 40px;
+    }
+    header button {
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -0.16px;
+    
+        width: 219px;
+        height: 56px;
+    }
+    .super {
+        align-items: start;
+        padding: 0 40px 140px 40px;
+
+        position: relative;
+        z-index: 1;
+    }
+    .line-1 {
+        width: 231px;
+        margin-left: 222px;
+        margin-bottom: 10px;
+    }
+    .super-h2 {
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -0.777778px;
+        
+        width: 533px;
+    }
+    .super-p {
+        width: 343px;
+        margin: 40px 0;
+    }
+    .super-button {
+        margin-right: 85px;
+    }
+    .phone {
+        display: flex;
+        justify-content: center;
+        margin: 0 16px 50px 16px;
+        
+        position: absolute;
+        top: 200px;
+        right: 20px;
+
+        width: 281px;
+        height: 482px;
+    }
+    .timer {
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 360px;
+    }
+    .jeremy-large {
+        margin-top: -250px;
+    
+        background-image: url(images/assets/pattern-blur.svg);
+        background-repeat: no-repeat;
+        background-size: 500px 800px;
+        background-position: bottom;
+        background-position-x: -100px;
+        background-position-y: 300px;
+    }
+    .just-p {
+        /* width: 343px; */
+        margin: 40px 100px;
+    }
+    .section2 {
+        position: relative;
+        z-index: 1;
+
+        width: 690px;
+        margin: 0 auto;
+    }
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 80px;
+        padding: 590px 0 90px 0;
+    
+        margin-top: -500px;
+        height: 640px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    
 }
