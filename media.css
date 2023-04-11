@@ -1,3 +1,8 @@
 @media screen and (min-width: 768px) {
-    
+    .jeremy-small, .img-phone {
+        display: none;
+    }
+    .jeremy-large, .img-phone-portrait {
+        display: block;
+    }
 }
